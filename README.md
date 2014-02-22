@@ -13,5 +13,5 @@ If you're not using [Independent Publisher](https://github.com/raamdev/independe
 Adding Scheme.org Markup To Your WordPress Themes
 =================================================
 
-Full article can be read at [longren.org][(http://www.longren.org/wordpress-theme-devs-add-scheme-org-markup-to-your-themes).
+Full article can be read at [longren.org](http://www.longren.org/wordpress-theme-devs-add-scheme-org-markup-to-your-themes).
 
