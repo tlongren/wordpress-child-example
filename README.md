@@ -7,7 +7,7 @@ An example WordPress child theme. Very basic child theme for the [Independent Pu
 Usage
 =====
 
-If you're note using I[Independent Publisher theme](https://github.com/raamdev/independent-publisher) for your theme, you'll want to fork this repo and modify it to fit your theme. If you ARE using [Independent Publisher theme](https://github.com/raamdev/independent-publisher), just download this repo, upload it to WordPress, activate it in the dashboard, and you'll have schema.org markup.
+If you're not using [Independent Publisher](https://github.com/raamdev/independent-publisher) for your theme, you'll want to fork this repo and modify it to fit your theme. If you **are** using [Independent Publisher theme](https://github.com/raamdev/independent-publisher), just download this repo, upload it to WordPress, activate it in the dashboard, and you'll have schema.org markup.
 
 
 Adding Scheme.org Markup To Your WordPress Themes
