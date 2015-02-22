@@ -3,18 +3,12 @@ Theme Name: Longren.io
 Theme URI: http://longren.io/
 Author: Tyler Longren
 Author URI: http://longren.io
-Template: independent-publisher
-Description: Independent Publisher is beautiful reader-focused WordPress theme, for you. Clean, responsive, and mobile-ready, it gets out of your way and lets you share what you create. Full support for all Post Formats. This theme is ideal for both single-author and multi-author blogs.
+Template: parent-theme-name
+Description: Theme description
 Version: 1.0
 License: GNU GPLv3
 License URI: http://www.gnu.org/copyleft/gpl.html
 Tags: light, white, green, one-column, two-columns, left-sidebar, fluid-layout, featured-images, full-width-template, custom-menu, responsive-layout, custom-background, custom-colors, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, theme-options
-
-Based on _s http://underscores.me
-and Publish by Konstantin Kovshenin http://kovshenin.com/themes/publish
-
-Resetting and rebuilding styles have been helped along thanks to the fine work of
-Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
-along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-and Blueprint http://www.blueprintcss.org/
 */
+
+/* You can add any custom CSS here */
