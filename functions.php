@@ -1,42 +1,26 @@
 <?php
-function html_tag_schema() {
-    $schema = 'http://schema.org/';
 
-    // Is single post
-    if(is_single())
-    {
-        $type = "Article";
-    }
-    // Contact form page ID
-    else if( is_page(1) )
-    {
-        $type = 'ContactPage';
-    }
-    // Is author page
-    elseif( is_author() )
-    {
-        $type = 'ProfilePage';
-    }
-    // Is search results page
-    elseif( is_search() )
-    {
-        $type = 'SearchResultsPage';
-    }
-    // Is of movie post type
-    elseif(is_singular('movies'))
-    {
-        $type = 'Movie';
-    }
-    // Is of book post type
-    elseif(is_singular('books'))
-    {
-        $type = 'Book';
-    }
-    else
-    {
-        $type = 'WebPage';
+/*
+* load_scripts
+*
+* load up css and javascript for tracking services and other custom stuff.
+*/
+function load_scripts() {
+    // load styles
+    wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+    // load parent theme css
+    if ( is_child_theme() ) {
+      wp_enqueue_style( 'parent-theme', trailingslashit( get_template_directory_uri() ) . 'style.css'  );
     }
 
-    echo 'itemscope="itemscope" itemtype="' . $schema . $type . '"';
+    // load child theme css
+    wp_enqueue_style( 'style', get_stylesheet_uri() );
+
+    // load javascript
+
+
 }
+add_action( 'wp_enqueue_scripts', 'load_scripts' );
+
 ?>
