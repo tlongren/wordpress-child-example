@@ -1,16 +1,16 @@
 wordpress-child-example
 =======================
 
-An example WordPress child theme. Very basic child theme for the [Independent Publisher theme](https://github.com/raamdev/independent-publisher).
+An example WordPress child theme. Very basic child theme that loads the parent theme CSS, Font Awesome CSS, and the child theme CSS.
 
 
 Usage
 =====
 
-If you're not using [Independent Publisher](https://github.com/raamdev/independent-publisher) for your theme, you'll want to fork this repo and modify it to fit your theme. If you **are** using [Independent Publisher theme](https://github.com/raamdev/independent-publisher), just download this repo, upload it to WordPress, activate it in the dashboard, and you'll have schema.org markup.
+just activate the child theme and the parent theme CSS will be included, along with Font Awesome and the child theme CSS.
 
 
 More WordPress Stuff
 =================================================
 
-More useful WordPress tips and tricks can be [found at my blog](http://longren.io/tag/wordpress/)!
+More useful WordPress tips and tricks can be [found at my blog](https://longren.io/tag/wordpress/)!
